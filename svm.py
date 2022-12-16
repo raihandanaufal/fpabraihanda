@@ -7,7 +7,6 @@ from sklearn.multiclass import OneVsRestClassifier
 from itertools import cycle
 import pandas as pd
 plt.style.use('ggplot')
- 
 dataframe = pd.read_csv('dataset-manda-terus.csv')
 dataframe.info()
 X = dataframe.copy()
